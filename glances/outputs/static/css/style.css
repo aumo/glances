@@ -32,24 +32,24 @@ div#newline{
     clear: both;
     height: 1em;
 }
-#underline{
+#underline, .underline{
     text-decoration: underline
 }
-#bold{
+#bold, .bold{
     font-weight: bold;
 }
-#sort{
+#sort, .sort{
     font-weight: bold;
 }
 #sort:after{
     content: '\25BC'
 }
 /*Theme*/
-#title{
+#title, .title{
     font-weight: bold;
     color: white;
 }
-#table {
+#table, .table {
     display: table;
 }
 .row {
@@ -58,41 +58,41 @@ div#newline{
 .cell {
     display: table-cell;
 }
-#ok {
+#ok, .ok {
     color: green;
 }
-#filter {
+#filter, .filter {
     color: cyan;
 }
-#ok_log {
+#ok_log, .ok_log {
     background-color: green;
     color: white;
 }
-#careful {
+#careful, .careful {
     color: blueviolet;
 }
-#careful_log {
+#careful_log, .careful_log {
     background-color: blueviolet;
     color: white;
 }
-#warning {
+#warning, .warning {
     color: orange;
 }
-#warning_log {
+#warning_log, .warning_log {
     background-color: orange;
     color: white;
 }
-#critical {
+#critical, .critical {
     color: red;
 }
 #critical_log {
     background-color: red;
     color: white;
 }
-#nice {
+#nice, .nice {
     color: magenta;
 }
-#status {
+#status, .status {
     color: green;
 }
 /*Plugins*/
