@@ -1,0 +1,7 @@
+<article class="plugin" id="[[name]]">
+  <div class="table">
+    <div class="row" ng-repeat="row in rows">
+      <span class="cell [[cell.decorationClass]] [[cell.optional ? hide : '']]" ng-repeat="cell in row" ng-bind-html="cell.msg"></span>
+    </div>
+  </div>
+</article>
